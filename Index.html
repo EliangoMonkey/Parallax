@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
+    <title>Efecto Paralax</title>
+</head>
+<body>
+    <nav>
+        <div class="logo"></div>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Acerca de Nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+    </nav>
+
+    <section id="slider">
+        <div id="content-images-slider">
+            <div class="image-slider rellax" data-rellax-speed="-10" style='background-image: url(img/One.png);'></div>
+            <div class="image-slider rellax" data-rellax-speed="-6" style='background-image: url(img/Two.png);'></div>
+            <div class="image-slider rellax" data-rellax-speed="-25">
+                <h1 id="slider-text">Efecto parallax</h1><br>
+            </div>
+        
+            <div class="image-slider rellax" data-rellax-speed="-4" style='background-image: url(img/Three.png);'></div>
+            <div class="image-slider" style='background-image: url(img/Four.png)'></div>
+            <div class="image-slider" style='background-image: url(img/Five.png)'></div>
+            <div class="image-slider" style='background-image: url(img/Six.png)'></div>
+        </div>
+    </section>
+    <section id="content">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13580.310103182042!2d-106.4095127!3d31.6864485!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e75d128977dd47%3A0x1615c32237f20012!2sJulio%20Cepeda%20Jugueter%C3%ADas%20-%20Cd.%20Ju%C3%A1rez%20Las%20Misiones!5e0!3m2!1ses-419!2smx!4v1715199632809!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <script src="js/rellax.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
